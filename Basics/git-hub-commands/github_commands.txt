@@ -1,0 +1,9 @@
+git config --global user.name "name"
+git config --global user.email "mail" 
+git init
+git add filename
+git commit -m "comment"
+git branch -M main
+git remote add origin link
+git push origin main
+git pull
