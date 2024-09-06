@@ -1,0 +1,160 @@
+.container1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.containerpromo {
+    padding: 6px;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.finput {
+    width: 98%;
+    border: 1px solid gainsboro;
+    height: 25px;
+
+}
+
+
+.linput {
+    width: 50%;
+    border: 1px solid gainsboro;
+    height: 25px;
+
+}
+
+.textboxcolor {
+    border: 1px solid gainsboro;
+}
+
+.container-name {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.user {
+    width: 100%;
+    border: 1px solid gainsboro;
+    height: 25px;
+}
+
+#fontsize {
+    font-size: x-small;
+    color: grey;
+}
+
+.checkoutbutton {
+    width: 100%;
+    height: 5%;
+    background-color: blue;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    height: 100vh;
+}
+
+#greentext {
+    color: limegreen;
+}
+
+#fonts {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+.margin-right {
+    margin-right: 25px;
+}
+
+.margin-left {
+    margin-left: 25px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.margin2 {
+    margin-right: 25px;
+}
+
+#grey {
+
+    color: rgb(255, 255, 255);
+}
+
+.height {
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.bgc {
+    background-color: white;
+}
+
+.promobox {
+    border: 1px solid gainsboro;
+    height: 25px;
+}
+
+.redeembutton {
+    border-radius: 0%;
+    background-color: gray;
+    height: 28px;
+    border: 0;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.thicktext {
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.greytext {
+    color: gray;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    border-radius: 12px;
+}
+
+.input-item {
+    width: 100%;
+    height: 30px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    padding: 0px 4px;
+    border-radius: 4px;
+
+}

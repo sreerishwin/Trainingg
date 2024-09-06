@@ -1,0 +1,220 @@
+<html>
+
+<head>
+    <title> bill</title>
+    <link rel="stylesheet" href="billingstyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container4" id="fonts">
+        <div class="card-container">
+            <div>
+                <p class="thicktext"> Billing address</p>
+                <div class="container-name">
+                    <div class="container1">
+                        <label for="First-name">First name</label>
+                        <input class="input-item" type="text" id="First-name">
+                    </div>
+                    <div class="container1">
+                        <label for="Last-name">Last name</label>
+                        <input class="input-item" type="text" id="Last-name">
+                    </div>
+                </div>
+
+
+
+                <div class="container1">
+                    <label>Username</label>
+                    <input class="input-item" type="text" placeholder="Username">
+                </div>
+
+
+
+                <div class="container1">
+                    <label>Email(optional)</label>
+                    <input class="input-item" type="text" placeholder="you@gmail.com">
+                </div>
+
+
+
+                <div class="container1">
+                    <label>Address</label>
+                    <input class="input-item" type="text" placeholder="1234 Main St">
+                </div>
+
+
+
+                <div class="container1">
+                    <label>Address2(optional)</label>
+                    <input class="input-item" type="text" placeholder="Apartment or suite">
+                </div>
+
+
+                <div class="container-name">
+                    <div class="container1 margin2">
+                        <label for="First-name">Country</label>
+                        <select class="input-item" placeholder="Choose...">
+                            <option selected>Choose...</option>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>Canada</option>
+                        </select>
+                    </div>
+                    <div class="container1 margin2">
+                        <label>State</label>
+                        <select class="input-item" aria-placeholder="Choose...">
+                            <option selected>Choose...</option>
+                            <option>Kerala</option>
+                            <option>TN</option>
+                            <option>Bangaluru</option>
+                        </select>
+                    </div>
+                    <div class="container1">
+                        <label>Zip</label>
+                        <input class="input-item" type="text" id="Last-name">
+                    </div>
+                </div>
+
+
+                <hr id="grey">
+
+
+                <p><input type="checkbox">Shipping address is the same as my billing address</p>
+                <p><input type="checkbox">Save this information for the next time</p>
+
+
+                <hr id="grey">
+
+
+                <p class="thicktext">Payment</p>
+                <p><input type="radio" name="pay"> Credit Card</p>
+                <p><input type="radio" name="pay"> Paypal</p>
+                <p><input type="radio" name="pay"> Debit card</p>
+
+
+                <div class="container-name">
+                    <div class="container1">
+                        <label for="First-name">Name on my card</label>
+                        <input class="input-item" type="text" id="First-name">
+                        <label id="fontsize">Full name as displayed on card</label>
+
+                    </div>
+                    <div class="container1">
+                        <label for="" Last-name>Credit card number</label>
+                        <input class="input-item" type="text" id="Last-name">
+                    </div>
+                </div>
+
+
+                <div class="container-name">
+                    <div class="container1">
+                        <label for="First-name">Expiration</label>
+                        <input class="input-item" type="text" id="First-name">
+                    </div>
+                    <div class="container1">
+                        <label for="" Last-name>Cvv</label>
+                        <input class="input-item" type="text" id="Last-name">
+                    </div>
+                </div>
+
+
+                <hr id="grey">
+
+
+                <input class="checkoutbutton" type="button" value="Continue to checkout">
+            </div>
+
+
+
+
+            <div class="margin-right">
+
+
+
+                <p class="thicktext greytext">Your cart</p>
+
+
+
+                <div class="container2 bgc">
+                    <div class="container1 margin-left">
+                        <label><strong>Product name</strong></label>
+                        <label>Brief description</label>
+                    </div>
+                    <div class="margin-top margin2">
+                        <label>$12</label>
+                    </div>
+                </div>
+
+
+                <div class="container2 bgc">
+                    <div class="container1  margin-left">
+                        <label><strong>Second Product</strong></label>
+                        <label>Brief description</label>
+                    </div>
+                    <div class="margin-top margin2">
+                        <label>$8</label>
+                    </div>
+                </div>
+
+
+
+                <div class="container2 bgc">
+                    <div class="container1 margin-left">
+                        <label><strong>Third item</strong></label>
+                        <label>Brief description</label>
+                    </div>
+                    <div class="margin-top margin2">
+                        <label>$5</label>
+                    </div>
+                </div>
+
+
+                <div class="container2" id="greentext">
+                    <div class="container1 margin-left">
+                        <label><strong>Promo code</strong></label>
+                        <label>Example code</label>
+                    </div>
+                    <div class="margin-top margin2">
+                        <label>-$5</label>
+                    </div>
+                </div>
+
+
+                <div class="container2 bgc ">
+                    <label class="margin-top margin-bottom margin-left"><strong>Total(USD)</strong></label>
+                    <label class="margin-top margin-bottom margin-right"><strong>$20</strong></label>
+                </div>
+
+
+
+                <div class="margin-top containerpromo">
+                    <input class="promobox" type="text" placeholder="Promo code" class="height">
+                    <input class="redeembutton" type="button" value="Redeem">
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
